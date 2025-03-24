@@ -18,5 +18,5 @@ to run script in a local virtual environment.
 When done, run `source .env/bin/deactivate` to deactivate virtual environment.
 
 ## Credits
-- Code adapted from [LingPy tutorial by Johann Mattis](https://www.lingulist.de/documents/tutorials/list-2013-lingpy-datastructures.pdf).
+- Code adapted from this [LingPy tutorial by Johann Mattis](https://www.lingulist.de/documents/tutorials/list-2013-lingpy-datastructures.pdf).
 - Developed as part of the NLP course of the Universitat Pompeu Fabra's Master in Theoretical and Applied Linguistics taught by Professor Thomas Brochhagen.
