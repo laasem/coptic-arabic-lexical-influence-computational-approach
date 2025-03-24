@@ -1,0 +1,419 @@
+# Wordlist
+
+# META
+@vowels:T V _
+@json: {"params": {"cscorer": {"ratio": [2, 1], "vscale": 1.0, "runs": 1000, "scoring_threshold": 0.7, "preprocessing_threshold": 0.7, "modestring": "global-2-0.50:local-1-0.50", "factor": 0.3, "restricted_chars": "_T", "method": "shuffle", "preprocessing": "False:upgma:-2", "unattested": -5, "unexpected": 1e-05, "smooth": 1}, "cluster": "lexstat_upgma_0.50"}}
+
+# DATA
+ID	CONCEPT	COUNTERPART	IPA	DOCULECT	COGID	TOKENS	SONARS	PROSTRINGS	CLASSES	LANGID	NUMBERS	WEIGHTS	DUPLICATES	LEXSTATID
+#
+120	Blemmye, name of a people dwelling in the Christian period on the East of the Nile south of Philae, known for their bluffing	ⲃⲁⲗϩⲙⲟⲩ	balhmou	COPTIC	11	b a l h m ou	1 7 5 3 4 7	AXMBCZ	PALHMU	1	1.P.C 1.A.V 1.L.c 1.H.C 1.M.C 1.U.V	2.0 1.5 1.1 1.75 1.5 0.8	0	1
+#
+36	a bird	هيبه	hēba	EGYPTIAN ARABIC	36	h ē b a	3 7 1 7	AXBZ	HEPA	2	2.H.C 2.E.V 2.P.C 2.A.V	2.0 1.5 1.75 0.8	0	2
+#
+100	a brick	طوبه	tūba	EGYPTIAN ARABIC	100	t ū b a	1 7 1 7	AXBZ	TYPA	2	2.T.C 2.Y.V 2.P.C 2.A.V	2.0 1.5 1.75 0.8	0	3
+209	a brick	ⲧⲱⲃⲉ	tōbe	COPTIC	100	t ō b e	1 7 1 7	AXBZ	TUPE	1	1.T.C 1.U.V 1.P.C 1.E.V	2.0 1.5 1.75 0.8	0	3
+#
+43	a call for help	جي	jay	EGYPTIAN ARABIC	43	j ay	6 7	AX	JA	2	2.J.C 2.A.V	2.0 1.5	0	4
+#
+19	a call of welcome during country weddings	بشوبش	bshōbesh	EGYPTIAN ARABIC	19	b s h ō b e s h	1 3 3 7 1 7 3 3	ACBXBYLN	PSHUPESH	2	2.P.C 2.S.C 2.H.C 2.U.V 2.P.C 2.E.V 2.S.c 2.H.c	2.0 1.5 1.75 1.5 1.75 1.3 1.1 0.8	0	5
+#
+163	a crown	ⲗⲱⲃϣ	lōbsh	COPTIC	54	l ō b s h	5 7 1 3 3	AXBCN	LUPSH	1	1.L.C 1.U.V 1.P.C 1.S.C 1.H.c	2.0 1.5 1.75 1.5 0.8	0	6
+#
+29	a fish	قشوه	gashwa	EGYPTIAN ARABIC	29	g a s h w a	1 7 3 3 6 7	AXMBCZ	KASHWA	2	2.K.C 2.A.V 2.S.c 2.H.C 2.W.C 2.A.V	2.0 1.5 1.1 1.75 1.5 0.8	0	8
+139	a fish	ⲕⲏⲗ	kēl	COPTIC	30	k ē l	1 7 5	AXN	KEL	1	1.K.C 1.E.V 1.L.c	2.0 1.5 0.8	0	7
+#
+3	a game of pebbles	آل	al	EGYPTIAN ARABIC	3	a l	7 5	XN	AL	2	2.A.V 2.L.c	1.5 0.8	0	9
+#
+106	a grain measure (two kēlas or one-sixth of an 'ardab)	ويبه	wēba	EGYPTIAN ARABIC	106	w ē b a	6 7 1 7	AXBZ	WEPA	2	2.W.C 2.E.V 2.P.C 2.A.V	2.0 1.5 1.75 0.8	0	10
+#
+76	a kick	شلوت	shallūt	EGYPTIAN ARABIC	76	s h a ll ū t	3 3 7 5 7 1	ACYBYN	SHALYT	2	2.S.C 2.H.C 2.A.V 2.L.C 2.Y.V 2.T.c	2.0 1.5 1.3 1.75 1.3 0.8	0	11
+#
+20	a kind of fish	بوري	būrī	EGYPTIAN ARABIC	20	b ū r ī	1 7 5 7	AXBZ	PYRI	2	2.P.C 2.Y.V 2.R.C 2.I.V	2.0 1.5 1.75 0.8	0	12
+30	a kind of fish	قيل	gīl	EGYPTIAN ARABIC	30	g ī l	1 7 5	AXN	KIL	2	2.K.C 2.I.V 2.L.c	2.0 1.5 0.8	0	13
+51	a kind of fish	لبيس	labīs	EGYPTIAN ARABIC	51	l a b ī s	5 7 1 7 3	AXBYN	LAPIS	2	2.L.C 2.A.V 2.P.C 2.I.V 2.S.c	2.0 1.5 1.75 1.3 0.8	0	14
+69	a kind of fish	راى	rāy	EGYPTIAN ARABIC	69	r ā y	5 7 7	AXZ	RAY	2	2.R.C 2.A.V 2.Y.V	2.0 1.5 0.8	0	15
+82	a kind of fish	شلبه	shilba	EGYPTIAN ARABIC	82	s h i l b a	3 3 7 5 1 7	ACYMBZ	SHILPA	2	2.S.C 2.H.C 2.I.V 2.L.c 2.P.C 2.A.V	2.0 1.5 1.3 1.1 1.75 0.8	0	16
+#
+54	a kind of prayer	لبش	lubsh	EGYPTIAN ARABIC	54	l u b s h	5 7 1 3 3	AXBCN	LYPSH	2	2.L.C 2.Y.V 2.P.C 2.S.C 2.H.c	2.0 1.5 1.75 1.5 0.8	0	17
+#
+67	a measure of grain which is one-fourth of a kēla, used only in distant Upper Egypt	رفطاو	raftāw	EGYPTIAN ARABIC	67	r a f t ā w	5 7 3 1 7 6	AXMBYN	RABTAW	2	2.R.C 2.A.V 2.B.c 2.T.C 2.A.V 2.W.c	2.0 1.5 1.1 1.75 1.3 0.8	0	18
+#
+164	a place to scatter	ⲙⲁⲇⲱⲡ	madōr	COPTIC	55	m a d ō r	4 7 1 7 5	AXBYN	MATUR	1	1.M.C 1.A.V 1.T.C 1.U.V 1.R.c	2.0 1.5 1.75 1.3 0.8	0	19
+#
+179	a plant, flower of laurus nobilis	ⲣⲓⲧⲁ	rita	COPTIC	70	r i t a	5 7 1 7	AXBZ	RITA	1	1.R.C 1.I.V 1.T.C 1.A.V	2.0 1.5 1.75 0.8	0	20
+#
+70	a plant, sapindus	ريته	rīta	EGYPTIAN ARABIC	70	r ī t a	5 7 1 7	AXBZ	RITA	2	2.R.C 2.I.V 2.T.C 2.A.V	2.0 1.5 1.75 0.8	0	21
+#
+55	a pot for kneading	ماجور	majūr	EGYPTIAN ARABIC	55	m a j ū r	4 7 6 7 5	AXBYN	MAJYR	2	2.M.C 2.A.V 2.J.C 2.Y.V 2.R.c	2.0 1.5 1.75 1.3 0.8	0	22
+#
+2	a prayer book for the Copts	أجبيه	ajbiya	EGYPTIAN ARABIC	2	a j b iya	7 6 1 7	XMBZ	AJPI	2	2.A.V 2.J.c 2.P.C 2.I.V	1.5 1.1 1.75 0.8	0	23
+#
+24	a wooden door lock	ضبه	dabbah	EGYPTIAN ARABIC	24	d a bb a h	1 7 1 7 3	AXBYN	TAPAH	2	2.T.C 2.A.V 2.P.C 2.A.V 2.H.c	2.0 1.5 1.75 1.3 0.8	0	24
+133	a wooden door lock	ⲧⲉⲡⲱ	tepō	COPTIC	24	t e p ō	1 7 1 7	AXBZ	TEPU	1	1.T.C 1.E.V 1.P.C 1.U.V	2.0 1.5 1.75 0.8	0	24
+#
+15	a word used by children when they try to frighten each other	بخ	bikh	EGYPTIAN ARABIC	15	b i k h	1 7 1 3	AXBC	PIKH	2	2.P.C 2.I.V 2.K.C 2.H.C	2.0 1.5 1.75 1.5	0	25
+#
+138	among fish	ⲕⲁϣⲟⲩ	kashou	COPTIC	29	k a s h ou	1 7 3 3 7	AXMBZ	KASHU	1	1.K.C 1.A.V 1.S.c 1.H.C 1.U.V	2.0 1.5 1.1 1.75 0.8	0	26
+#
+34	anchor	هوجل	hawjal	EGYPTIAN ARABIC	34	h a w j a l	3 7 6 6 7 5	AXMBYN	HAWJAL	2	2.H.C 2.A.V 2.W.c 2.J.C 2.A.V 2.L.c	2.0 1.5 1.1 1.75 1.3 0.8	0	28
+143	anchor	ϩⲁⲩϫⲁⲗ	haudal	COPTIC	34	h au d a l	3 7 1 7 5	AXBYN	HATAL	1	1.H.C 1.A.V 1.T.C 1.A.V 1.L.c	2.0 1.5 1.75 1.3 0.8	0	27
+#
+101	axe	طوريه	tūrya	EGYPTIAN ARABIC	101	t ū r ya	1 7 5 7	AXBZ	TYRY	2	2.T.C 2.Y.V 2.R.C 2.Y.V	2.0 1.5 1.75 0.8	0	29
+#
+213	bark, growl	ⲟⲩⲁϩⲃⲉϩ	ouahbeh	COPTIC	104	oua h b e h	7 3 1 7 3	XMBYN	UHPEH	1	1.U.V 1.H.c 1.P.C 1.E.V 1.H.c	1.5 1.1 1.75 1.3 0.8	0	30
+#
+192	basket or crate	ⲇⲛⲟϥ	dnof	COPTIC	83	d n o f	1 4 7 3	ACXN	TNUB	1	1.T.C 1.N.C 1.U.V 1.B.c	2.0 1.5 1.5 0.8	0	31
+#
+202	be drunken	ⲧⲁϩⲉ	tahe	COPTIC	93	t a h e	1 7 3 7	AXBZ	TAHE	1	1.T.C 1.A.V 1.H.C 1.E.V	2.0 1.5 1.75 0.8	0	32
+#
+204	be gathered or collected	ⲧⲟⲟⲩⲧⲉ	tooute	COPTIC	95	t oou t e	1 7 1 7	AXBZ	TUTE	1	1.T.C 1.U.V 1.T.C 1.E.V	2.0 1.5 1.75 0.8	0	33
+#
+161	be impudent, persistent	ⲗⲟϭ	loch	COPTIC	52	l o c h	5 7 1 3	AXBC	LUCH	1	1.L.C 1.U.V 1.C.C 1.H.C	2.0 1.5 1.75 1.5	0	34
+#
+79	beat with a whip	شوشو	shawshaw	EGYPTIAN ARABIC	79	s h a w s h a w	3 3 7 6 3 3 7 6	ACYLMBYN	SHAWSHAW	2	2.S.C 2.H.C 2.A.V 2.W.c 2.S.c 2.H.C 2.A.V 2.W.c	2.0 1.5 1.3 1.1 1.1 1.75 1.3 0.8	0	35
+#
+81	bell	شقلقيل	shgilgīl	EGYPTIAN ARABIC	81	s h g i l g ī l	3 3 1 7 5 1 7 5	AMBYMBYN	SHKILKIL	2	2.S.C 2.H.c 2.K.C 2.I.V 2.L.c 2.K.C 2.I.V 2.L.c	2.0 1.1 1.75 1.3 1.1 1.75 1.3 0.8	0	36
+190	bell	ⲱⲕⲓⲗⲕⲓⲗ	shkilkil	COPTIC	81	s h k i l k i l	3 3 1 7 5 1 7 5	AMBYMBYN	SHKILKIL	1	1.S.C 1.H.c 1.K.C 1.I.V 1.L.c 1.K.C 1.I.V 1.L.c	2.0 1.1 1.75 1.3 1.1 1.75 1.3 0.8	0	36
+#
+65	big	نوش	nūsh	EGYPTIAN ARABIC	65	n ū s h	4 7 3 3	AXLN	NYSH	2	2.N.C 2.Y.V 2.S.c 2.H.c	2.0 1.5 1.1 0.8	0	37
+#
+97	border or boundary	طاش	tãsh	EGYPTIAN ARABIC	97	t ã s h	1 7 3 3	AXLN	TASH	2	2.T.C 2.A.V 2.S.c 2.H.c	2.0 1.5 1.1 0.8	0	38
+#
+200	brine	ⲇⲓⲣ	dir	COPTIC	91	d i r	1 7 5	AXN	TIR	1	1.T.C 1.I.V 1.R.c	2.0 1.5 0.8	0	39
+#
+8	bubble	بقلوله	baglūla	EGYPTIAN ARABIC	8	b a g l ū l a	1 7 1 5 7 5 7	AXBCYBZ	PAKLYLA	2	2.P.C 2.A.V 2.K.C 2.L.C 2.Y.V 2.L.C 2.A.V	2.0 1.5 1.75 1.5 1.3 1.75 0.8	0	40
+#
+158	burial or corpse	ⲕⲏⲥ	kēs	COPTIC	49	k ē s	1 7 3	AXN	KES	1	1.K.C 1.E.V 1.S.c	2.0 1.5 0.8	0	41
+#
+25	buttocks	فلت	falt	EGYPTIAN ARABIC	25	f a l t	3 7 5 1	AXLN	BALT	2	2.B.C 2.A.V 2.L.c 2.T.c	2.0 1.5 1.1 0.8	0	42
+#
+45	cake	كعكه	ka'ka	EGYPTIAN ARABIC	45	k a 'k a	1 7 1 7	AXBZ	KAKA	2	2.K.C 2.A.V 2.K.C 2.A.V	2.0 1.5 1.75 0.8	0	43
+154	cake	ⲕⲁⲕⲉ	kake	COPTIC	45	k a k e	1 7 1 7	AXBZ	KAKE	1	1.K.C 1.A.V 1.K.C 1.E.V	2.0 1.5 1.75 0.8	0	43
+#
+40	carriage drawn by horses	حنطور	hantūr	EGYPTIAN ARABIC	40	h a n t ū r	3 7 4 1 7 5	AXMBYN	HANTYR	2	2.H.C 2.A.V 2.N.c 2.T.C 2.Y.V 2.R.c	2.0 1.5 1.1 1.75 1.3 0.8	0	44
+#
+87	censor	شوريه	shūriya	EGYPTIAN ARABIC	87	s h ū r iya	3 3 7 5 7	ACYBZ	SHYRI	2	2.S.C 2.H.C 2.Y.V 2.R.C 2.I.V	2.0 1.5 1.3 1.75 0.8	0	45
+196	censor	ⲱⲟⲩⲣⲏ	shourē	COPTIC	87	s h ou r ē	3 3 7 5 7	ACYBZ	SHURE	1	1.S.C 1.H.C 1.U.V 1.R.C 1.E.V	2.0 1.5 1.3 1.75 0.8	0	45
+#
+147	cheese	ϩⲁⲗⲱⲙ	halōm	COPTIC	38	h a l ō m	3 7 5 7 4	AXBYN	HALUM	1	1.H.C 1.A.V 1.L.C 1.U.V 1.M.c	2.0 1.5 1.75 1.3 0.8	0	46
+#
+122	clover	ⲃⲉⲣⲥⲓⲙ	bersim	COPTIC	13	b e r s i m	1 7 5 3 7 4	AXMBYN	PERSIM	1	1.P.C 1.E.V 1.R.c 1.S.C 1.I.V 1.M.c	2.0 1.5 1.1 1.75 1.3 0.8	0	47
+#
+13	clover or alfafa	برسيم	barsīm	EGYPTIAN ARABIC	13	b a r s ī m	1 7 5 3 7 4	AXMBYN	PARSIM	2	2.P.C 2.A.V 2.R.c 2.S.C 2.I.V 2.M.c	2.0 1.5 1.1 1.75 1.3 0.8	0	48
+#
+32	cobweb	هلوس	hallūs	EGYPTIAN ARABIC	32	h a ll ū s	3 7 5 7 3	AXBYN	HALYS	2	2.H.C 2.A.V 2.L.C 2.Y.V 2.S.c	2.0 1.5 1.75 1.3 0.8	0	49
+#
+17	cooked beans	بساره	bisāra	EGYPTIAN ARABIC	17	b i s ā r a	1 7 3 7 5 7	AXBYBZ	PISARA	2	2.P.C 2.I.V 2.S.C 2.A.V 2.R.C 2.A.V	2.0 1.5 1.75 1.3 1.75 0.8	0	50
+#
+38	cream cheese	حلوم	halūm	EGYPTIAN ARABIC	38	h a l ū m	3 7 5 7 4	AXBYN	HALYM	2	2.H.C 2.A.V 2.L.C 2.Y.V 2.M.c	2.0 1.5 1.75 1.3 0.8	0	51
+#
+44	crepitus ventris	جكس	juks	EGYPTIAN ARABIC	44	j u k s	6 7 1 3	AXBC	JYKS	2	2.J.C 2.Y.V 2.K.C 2.S.C	2.0 1.5 1.75 1.5	0	52
+153	crepitus ventris	ⲇⲟⲕⲥⲓ	doksi	COPTIC	44	d o k s i	1 7 1 3 7	AXBCZ	TUKSI	1	1.T.C 1.U.V 1.K.C 1.S.C 1.I.V	2.0 1.5 1.75 1.5 0.8	0	52
+#
+94	crocodile	تمساح	timsāh	EGYPTIAN ARABIC	94	t i m s ā h	1 7 4 3 7 3	AXMBYN	TIMSAH	2	2.T.C 2.I.V 2.M.c 2.S.C 2.A.V 2.H.c	2.0 1.5 1.1 1.75 1.3 0.8	0	53
+#
+64	delicate, nice, mignonne	ننوس	nannūs	EGYPTIAN ARABIC	64	n a nn ū s	4 7 4 7 3	AXBYN	NANYS	2	2.N.C 2.A.V 2.N.C 2.Y.V 2.S.c	2.0 1.5 1.75 1.3 0.8	0	54
+#
+50	dirty	كخ	kekh	EGYPTIAN ARABIC	50	k e k h	1 7 1 3	AXBC	KEKH	2	2.K.C 2.E.V 2.K.C 2.H.C	2.0 1.5 1.75 1.5	0	55
+#
+98	east wind	طياب	tayāb	EGYPTIAN ARABIC	98	t ay ā b	1 7 7 1	AXYN	TAAP	2	2.T.C 2.A.V 2.A.V 2.P.c	2.0 1.5 1.3 0.8	0	56
+#
+58	fanfaron, boaster, blusterer	مهياص	mihyās	EGYPTIAN ARABIC	58	m i h y ā s	4 7 3 7 7 3	AXBYYN	MIHYAS	2	2.M.C 2.I.V 2.H.C 2.Y.V 2.A.V 2.S.c	2.0 1.5 1.75 1.3 1.3 0.8	0	57
+#
+186	fennel	ⲥⲁⲙⲁϩⲏⲣ	samahēr	COPTIC	77	s a m a h ē r	3 7 4 7 3 7 5	AXBYBYN	SAMAHER	1	1.S.C 1.A.V 1.M.C 1.A.V 1.H.C 1.E.V 1.R.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	58
+#
+66	fever, typically typhoid	نوشه	nūsha	EGYPTIAN ARABIC	66	n ū s h a	4 7 3 3 7	AXMBZ	NYSHA	2	2.N.C 2.Y.V 2.S.c 2.H.C 2.A.V	2.0 1.5 1.1 1.75 0.8	0	59
+#
+180	fine flour	ⲥⲁⲙⲓⲧ	samit	COPTIC	71	s a m i t	3 7 4 7 1	AXBYN	SAMIT	1	1.S.C 1.A.V 1.M.C 1.I.V 1.T.c	2.0 1.5 1.75 1.3 0.8	0	60
+#
+194	fire or to scorch	ϣⲟⲡϩ	shoph	COPTIC	85	s h o p h	3 3 7 1 3	ACYBC	SHUPH	1	1.S.C 1.H.C 1.U.V 1.P.C 1.H.C	2.0 1.5 1.3 1.75 1.5	0	61
+#
+75	fish	شال	shāl	EGYPTIAN ARABIC	75	s h ā l	3 3 7 5	ACYN	SHAL	2	2.S.C 2.H.C 2.A.V 2.L.c	2.0 1.5 1.3 0.8	0	63
+184	fish	ⲕⲏⲗ	kēl	COPTIC	75	k ē l	1 7 5	AXN	KEL	1	1.K.C 1.E.V 1.L.c	2.0 1.5 0.8	1	62
+#
+160	fish cyprinus niloticus	ⲗⲁⲃⲏⲥ	labēs	COPTIC	51	l a b ē s	5 7 1 7 3	AXBYN	LAPES	1	1.L.C 1.A.V 1.P.C 1.E.V 1.S.c	2.0 1.5 1.75 1.3 0.8	0	64
+#
+178	fish, alestes dentes	ⲣⲏⲓ	rēi	COPTIC	69	r ē i	5 7 7	AXZ	REI	1	1.R.C 1.E.V 1.I.V	2.0 1.5 0.8	0	65
+#
+129	fish, nurgil cephalus	ⲃⲱⲣⲉ	bōre	COPTIC	20	b ō r e	1 7 5 7	AXBZ	PURE	1	1.P.C 1.U.V 1.R.C 1.E.V	2.0 1.5 1.75 0.8	0	66
+#
+191	fish, silurus mystus	ϭⲗⲃⲟⲟⲩ	shlboou	COPTIC	82	s h l b oou	3 3 5 1 7	ACYBZ	SHLPU	1	1.S.C 1.H.C 1.L.V 1.P.C 1.U.V	2.0 1.5 1.3 1.75 0.8	0	67
+#
+177	fish, tilapia	ⲣⲁⲙⲉ	rame	COPTIC	68	r a m e	5 7 4 7	AXBZ	RAME	1	1.R.C 1.A.V 1.M.C 1.E.V	2.0 1.5 1.75 0.8	0	68
+#
+14	flamingo	بشروش	basharōsh	EGYPTIAN ARABIC	14	b a s h a r ō s h	1 7 3 3 7 5 7 3 3	AXMBYBYLN	PASHARUSH	2	2.P.C 2.A.V 2.S.c 2.H.C 2.A.V 2.R.C 2.U.V 2.S.c 2.H.c	2.0 1.5 1.1 1.75 1.3 1.75 1.3 1.1 0.8	0	69
+#
+109	flatus ventris	ظرطه	zarta	EGYPTIAN ARABIC	109	z a r t a	3 7 5 1 7	AXMBZ	SARTA	2	2.S.C 2.A.V 2.R.c 2.T.C 2.A.V	2.0 1.5 1.1 1.75 0.8	0	71
+218	flatus ventris	ⲥⲁⲣϭⲁⲧⲥⲉ	sarchatse	COPTIC	109	s a r c h a t s e	3 7 5 1 3 7 1 3 7	AXMBCYBCZ	SARCHATSE	1	1.S.C 1.A.V 1.R.c 1.C.C 1.H.C 1.A.V 1.T.C 1.S.C 1.E.V	2.0 1.5 1.1 1.75 1.5 1.3 1.75 1.5 0.8	0	70
+#
+74	fog	شبوره	shabbūra	EGYPTIAN ARABIC	74	s h a bb ū r a	3 3 7 1 7 5 7	ACYBYBZ	SHAPYRA	2	2.S.C 2.H.C 2.A.V 2.P.C 2.Y.V 2.R.C 2.A.V	2.0 1.5 1.3 1.75 1.3 1.75 0.8	0	72
+#
+185	foot	ϭⲁⲗⲟⲇ	chalod	COPTIC	76	c h a l o d	1 3 7 5 7 1	ACXBYN	CHALUT	1	1.C.C 1.H.C 1.A.V 1.L.C 1.U.V 1.T.c	2.0 1.5 1.5 1.75 1.3 0.8	0	73
+#
+176	fraction of four or quarter	ⲣⲁϥⲧⲟⲟⲩ	raftoou	COPTIC	67	r a f t oou	5 7 3 1 7	AXMBZ	RABTU	1	1.R.C 1.A.V 1.B.c 1.T.C 1.U.V	2.0 1.5 1.1 1.75 0.8	0	74
+#
+116	fragment	ⲡⲟⲕⲉ	poke	COPTIC	7	p o k e	1 7 1 7	AXBZ	PUKE	1	1.P.C 1.U.V 1.K.C 1.E.V	2.0 1.5 1.75 0.8	0	75
+#
+107	fresh	ورور	wirwir	EGYPTIAN ARABIC	107	w i r w i r	6 7 5 6 7 5	AXBCYN	WIRWIR	2	2.W.C 2.I.V 2.R.C 2.W.C 2.I.V 2.R.c	2.0 1.5 1.75 1.5 1.3 0.8	0	76
+#
+9	frog	بقرور	bagrūr	EGYPTIAN ARABIC	9	b a g r ū r	1 7 1 5 7 5	AXBCYN	PAKRYR	2	2.P.C 2.A.V 2.K.C 2.R.C 2.Y.V 2.R.c	2.0 1.5 1.75 1.5 1.3 0.8	0	77
+#
+167	full of hurry	ⲙⲉϩⲛⲓⲱⲥ	mehniōs	COPTIC	58	m e h n i ō s	4 7 3 4 7 7 3	AXBCYYN	MEHNIUS	1	1.M.C 1.E.V 1.H.C 1.N.C 1.I.V 1.U.V 1.S.c	2.0 1.5 1.75 1.5 1.3 1.3 0.8	0	78
+#
+151	garment of wool	ϭⲟⲗⲃⲉ	cholbe	COPTIC	42	c h o l b e	1 3 7 5 1 7	ACXMBZ	CHULPE	1	1.C.C 1.H.C 1.U.V 1.L.c 1.P.C 1.E.V	2.0 1.5 1.5 1.1 1.75 0.8	0	79
+#
+42	garment, the main dress of the Egyptian fellahin	جلابيه	jallābiyya	EGYPTIAN ARABIC	42	j a ll ā b iyya	6 7 5 7 1 7	AXBYBZ	JALAPI	2	2.J.C 2.A.V 2.L.C 2.A.V 2.P.C 2.I.V	2.0 1.5 1.75 1.3 1.75 0.8	0	80
+#
+31	garrulous or talkative	هجاص	hajjās	EGYPTIAN ARABIC	31	h a jj ā s	3 7 6 7 3	AXBYN	HAJAS	2	2.H.C 2.A.V 2.J.C 2.A.V 2.S.c	2.0 1.5 1.75 1.3 0.8	0	81
+#
+95	gather	توت	tūt	EGYPTIAN ARABIC	95	t ū t	1 7 1	AXN	TYT	2	2.T.C 2.Y.V 2.T.c	2.0 1.5 0.8	0	82
+#
+170	grain	ⲛⲁⲡⲣⲉ	napri	COPTIC	61	n a p r i	4 7 1 5 7	AXBCZ	NAPRI	1	1.N.C 1.A.V 1.P.C 1.R.C 1.I.V	2.0 1.5 1.75 1.5 0.8	0	83
+#
+174	great or big	ⲛⲟϭ	noch	COPTIC	65	n o c h	4 7 1 3	AXBC	NUCH	1	1.N.C 1.U.V 1.C.C 1.H.C	2.0 1.5 1.75 1.5	0	84
+#
+131	gruel	ⲡⲟⲟⲩϣ	pooush	COPTIC	22	p oou s h	1 7 3 3	AXLN	PUSH	1	1.P.C 1.U.V 1.S.c 1.H.c	2.0 1.5 1.1 0.8	0	85
+#
+113	hades or the western place	ⲁⲙⲉⲛϯ	amenti	COPTIC	4	a m e n t i	7 4 7 4 1 7	XBYMBZ	AMENTI	1	1.A.V 1.M.C 1.E.V 1.N.c 1.T.C 1.I.V	1.5 1.75 1.3 1.1 1.75 0.8	0	86
+#
+41	he gave	إدى	idda	EGYPTIAN ARABIC	41	i dd a	7 1 7	XBZ	ITA	2	2.I.V 2.T.C 2.A.V	1.5 1.75 0.8	0	87
+#
+63	heat of the day	نقره	nagra	EGYPTIAN ARABIC	63	n a g r a	4 7 1 5 7	AXBCZ	NAKRA	2	2.N.C 2.A.V 2.K.C 2.R.C 2.A.V	2.0 1.5 1.75 1.5 0.8	0	88
+85	heat of the day	شوب	shōb	EGYPTIAN ARABIC	85	s h ō b	3 3 7 1	ACYN	SHUP	2	2.S.C 2.H.C 2.U.V 2.P.c	2.0 1.5 1.3 0.8	0	89
+#
+4	hell	أمندي	amandi	EGYPTIAN ARABIC	4	a m a n d i	7 4 7 4 1 7	XBYMBZ	AMANTI	2	2.A.V 2.M.C 2.A.V 2.N.c 2.T.C 2.I.V	1.5 1.75 1.3 1.1 1.75 0.8	0	90
+#
+169	here	ⲙⲛⲁⲓ	mnai	COPTIC	60	m n ai	4 4 7	ACZ	MNA	1	1.M.C 1.N.C 1.A.V	2.0 1.5 0.8	0	91
+#
+12	heron	بلشوم	balshūm	EGYPTIAN ARABIC	12	b a l s h ū m	1 7 5 3 3 7 4	AXLMBYN	PALSHYM	2	2.P.C 2.A.V 2.L.c 2.S.c 2.H.C 2.Y.V 2.M.c	2.0 1.5 1.1 1.1 1.75 1.3 0.8	0	92
+#
+132	high water, inundation	ⲧⲉⲙⲏⲣⲉ	temēre	COPTIC	23	t e m ē r e	1 7 4 7 5 7	AXBYBZ	TEMERE	1	1.T.C 1.E.V 1.M.C 1.E.V 1.R.C 1.E.V	2.0 1.5 1.75 1.3 1.75 0.8	0	93
+#
+60	hither	مناى	mnāy	EGYPTIAN ARABIC	60	m n ā y	4 4 7 7	ACYZ	MNAY	2	2.M.C 2.N.C 2.A.V 2.Y.V	2.0 1.5 1.3 0.8	0	94
+#
+155	hood, cowl of monks	ⲕⲟⲩⲕⲗⲉ	koukle	COPTIC	46	k ou k l e	1 7 1 5 7	AXBCZ	KUKLE	1	1.K.C 1.U.V 1.K.C 1.L.C 1.E.V	2.0 1.5 1.75 1.5 0.8	0	95
+#
+149	horses	ϩⲧⲱⲱⲣ	htoor	COPTIC	40	h t oo r	3 1 7 5	ACYN	HTUR	1	1.H.C 1.T.C 1.U.V 1.R.c	2.0 1.5 1.3 0.8	0	96
+#
+111	hours	ⲁϫⲡⲓ	adpi	COPTIC	2	a d p i	7 1 1 7	XMBZ	ATPI	1	1.A.V 1.T.c 1.P.C 1.I.V	1.5 1.1 1.75 0.8	0	97
+#
+99	invitation	طهمه	tohma	EGYPTIAN ARABIC	99	t o h m a	1 7 3 4 7	AXBCZ	TUHMA	2	2.T.C 2.U.V 2.H.C 2.M.C 2.A.V	2.0 1.5 1.75 1.5 0.8	0	98
+#
+173	it is nice	ⲛⲁⲛⲟⲩⲥ	nanous	COPTIC	64	n a n ou s	4 7 4 7 3	AXBYN	NANUS	1	1.N.C 1.A.V 1.N.C 1.U.V 1.S.c	2.0 1.5 1.75 1.3 0.8	0	99
+#
+217	jar	ⲥⲓⲣ	sir	COPTIC	108	s i r	3 7 5	AXN	SIR	1	1.S.C 1.I.V 1.R.c	2.0 1.5 0.8	0	100
+#
+84	large drawers out of mode	شنتيان	shintyān	EGYPTIAN ARABIC	84	s h i n t y ā n	3 3 7 4 1 7 7 4	ACYMBYYN	SHINTYAN	2	2.S.C 2.H.C 2.I.V 2.N.c 2.T.C 2.Y.V 2.A.V 2.N.c	2.0 1.5 1.3 1.1 1.75 1.3 1.3 0.8	0	101
+#
+108	large water pitcher	زير	zīr	EGYPTIAN ARABIC	108	z ī r	3 7 5	AXN	SIR	2	2.S.C 2.I.V 2.R.c	2.0 1.5 0.8	0	102
+#
+206	limit, boundary	ⲧⲁϣ	tash	COPTIC	97	t a s h	1 7 3 3	AXLN	TASH	1	1.T.C 1.A.V 1.S.c 1.H.c	2.0 1.5 1.1 0.8	0	103
+#
+39	lizard	حندوس	handūs	EGYPTIAN ARABIC	39	h a n d ū s	3 7 4 1 7 3	AXMBYN	HANTYS	2	2.H.C 2.A.V 2.N.c 2.T.C 2.Y.V 2.S.c	2.0 1.5 1.1 1.75 1.3 0.8	0	104
+148	lizard	ϩⲁⲛⲧⲟⲩⲥ	hantous	COPTIC	39	h a n t ou s	3 7 4 1 7 3	AXMBYN	HANTUS	1	1.H.C 1.A.V 1.N.c 1.T.C 1.U.V 1.S.c	2.0 1.5 1.1 1.75 1.3 0.8	0	104
+#
+21	mat made of palm leaves	برش	bursh	EGYPTIAN ARABIC	21	b u r s h	1 7 5 3 3	AXLLN	PYRSH	2	2.P.C 2.Y.V 2.R.c 2.S.c 2.H.c	2.0 1.5 1.1 1.1 0.8	0	105
+#
+37	matter, affair	هنيه	hnayye	EGYPTIAN ARABIC	37	h n ayye	3 4 7	ACX	HNA	2	2.H.C 2.N.C 2.A.V	2.0 1.5 1.5	0	106
+#
+215	measure of grain, less than an 'ardab	ⲟⲓⲡⲉ	oipe	COPTIC	106	oi p e	7 1 7	XBZ	UPE	1	1.U.V 1.P.C 1.E.V	1.5 1.75 0.8	0	107
+#
+102	mill sound	أونى	ūni	EGYPTIAN ARABIC	102	ū n i	7 4 7	XBZ	YNI	2	2.Y.V 2.N.C 2.I.V	1.5 1.75 0.8	0	108
+211	mill sound	ⲉⲩⲛⲓ	euni	COPTIC	102	eu n i	7 4 7	XBZ	ENI	1	1.E.V 1.N.C 1.I.V	1.5 1.75 0.8	0	108
+#
+49	misfortune or pain	كاس	kās	EGYPTIAN ARABIC	49	k ā s	1 7 3	AXN	KAS	2	2.K.C 2.A.V 2.S.c	2.0 1.5 0.8	0	109
+#
+72	oakum	ساس	sās	EGYPTIAN ARABIC	72	s ā s	3 7 3	AXN	SAS	2	2.S.C 2.A.V 2.S.c	2.0 1.5 0.8	0	110
+#
+103	oasis	واحه	wāha	EGYPTIAN ARABIC	103	w ā h a	6 7 3 7	AXBZ	WAHA	2	2.W.C 2.A.V 2.H.C 2.A.V	2.0 1.5 1.75 0.8	0	112
+212	oasis	ⲟⲩⲁϩⲉ	ouahe	COPTIC	103	oua h e	7 3 7	XBZ	UHE	1	1.U.V 1.H.C 1.E.V	1.5 1.75 0.8	0	111
+#
+46	outer garment	كاكوله	kālkūla	EGYPTIAN ARABIC	46	k ā l k ū l a	1 7 5 1 7 5 7	AXMBYBZ	KALKYLA	2	2.K.C 2.A.V 2.L.c 2.K.C 2.Y.V 2.L.C 2.A.V	2.0 1.5 1.1 1.75 1.3 1.75 0.8	0	113
+#
+18	part of a plough	بسخه	biskha	EGYPTIAN ARABIC	18	b i s k h a	1 7 3 1 3 7	AXMBCZ	PISKHA	2	2.P.C 2.I.V 2.S.c 2.K.C 2.H.C 2.A.V	2.0 1.5 1.1 1.75 1.5 0.8	0	114
+#
+112	pebble	ⲁⲗ	al	COPTIC	3	a l	7 5	XN	AL	1	1.A.V 1.L.c	1.5 0.8	0	115
+#
+117	pitcher or jar	ⲡⲉⲕⲉⲗⲱⲗ	pekelōl	COPTIC	8	p e k e l ō l	1 7 1 7 5 7 5	AXBYBYN	PEKELUL	1	1.P.C 1.E.V 1.K.C 1.E.V 1.L.C 1.U.V 1.L.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	116
+#
+127	plough handle	ⲡⲓⲥϧⲟ	pisHo	COPTIC	18	p i s H o	1 7 3 0 7	AXMBZ	PIS0U	1	1.P.C 1.I.V 1.S.c 1.0.C 1.U.V	2.0 1.5 1.1 1.75 0.8	0	117
+#
+90	plough or plowshare	سكه	sikka	EGYPTIAN ARABIC	90	s i kk a	3 7 1 7	AXBZ	SIKA	2	2.S.C 2.I.V 2.K.C 2.A.V	2.0 1.5 1.75 0.8	0	118
+#
+22	porridge	بوش	būsh	EGYPTIAN ARABIC	22	b ū s h	1 7 3 3	AXLN	PYSH	2	2.P.C 2.Y.V 2.S.c 2.H.c	2.0 1.5 1.1 0.8	0	119
+#
+114	porter, doorkeeper	ⲙⲛⲟⲩⲧ	mnout	COPTIC	5	m n ou t	4 4 7 1	ACYN	MNUT	1	1.M.C 1.N.C 1.U.V 1.T.c	2.0 1.5 1.3 0.8	0	120
+#
+205	pray	ⲧⲱⲃϩ	tōbh	COPTIC	96	t ō b h	1 7 1 3	AXBC	TUPH	1	1.T.C 1.U.V 1.P.C 1.H.C	2.0 1.5 1.75 1.5	0	121
+#
+96	prayer	طبحه	tabha	EGYPTIAN ARABIC	96	t a b h a	1 7 1 3 7	AXBCZ	TAPHA	2	2.T.C 2.A.V 2.P.C 2.H.C 2.A.V	2.0 1.5 1.75 1.5 0.8	0	122
+#
+128	reception, entertainment	ⲡϣⲟⲡⲥ	pshops	COPTIC	19	p s h o p s	1 3 3 7 1 3	ACBXBC	PSHUPS	1	1.P.C 1.S.C 1.H.C 1.U.V 1.P.C 1.S.C	2.0 1.5 1.75 1.5 1.75 1.5	0	123
+#
+193	robe of linen	ϣⲉⲛⲧⲱ	shentō	COPTIC	84	s h e n t ō	3 3 7 4 1 7	ACYMBZ	SHENTU	1	1.S.C 1.H.C 1.E.V 1.N.c 1.T.C 1.U.V	2.0 1.5 1.3 1.1 1.75 0.8	0	124
+#
+83	sack for straw	شنف	shinf	EGYPTIAN ARABIC	83	s h i n f	3 3 7 4 3	ACYLN	SHINB	2	2.S.C 2.H.C 2.I.V 2.N.c 2.B.c	2.0 1.5 1.3 1.1 0.8	0	125
+#
+152	safety, health	ⲟⲩⲇⲁⲓ	oudai	COPTIC	43	ou d ai	7 1 7	XBZ	UTA	1	1.U.V 1.T.C 1.A.V	1.5 1.75 0.8	0	126
+#
+91	salty	صير	sīr	EGYPTIAN ARABIC	91	s ī r	3 7 5	AXN	SIR	2	2.S.C 2.I.V 2.R.c	2.0 1.5 0.8	0	127
+#
+214	saw	ⲃⲁϣⲟⲩⲣ	bashour	COPTIC	105	b a s h ou r	1 7 3 3 7 5	AXMBYN	PASHUR	1	1.P.C 1.A.V 1.S.c 1.H.C 1.U.V 1.R.c	2.0 1.5 1.1 1.75 1.3 0.8	0	128
+#
+5	sexton	أمنوت	amnūt	EGYPTIAN ARABIC	5	a m n ū t	7 4 4 7 1	XMBYN	AMNYT	2	2.A.V 2.M.c 2.N.C 2.Y.V 2.T.c	1.5 1.1 1.75 1.3 0.8	0	129
+#
+53	ship's cable	لبان	libān	EGYPTIAN ARABIC	53	l i b ā n	5 7 1 7 4	AXBYN	LIPAN	2	2.L.C 2.I.V 2.P.C 2.A.V 2.N.c	2.0 1.5 1.75 1.3 0.8	0	130
+162	ship's cable	ⲗⲉⲃⲁⲛ	leban	COPTIC	53	l e b a n	5 7 1 7 4	AXBYN	LEPAN	1	1.L.C 1.E.V 1.P.C 1.A.V 1.N.c	2.0 1.5 1.75 1.3 0.8	0	130
+#
+198	single lock or plait of hair	ⲇⲓⲇⲱⲓ	didōi	COPTIC	89	d i d ō i	1 7 1 7 7	AXBYZ	TITUI	1	1.T.C 1.I.V 1.T.C 1.U.V 1.I.V	2.0 1.5 1.75 1.3 0.8	0	131
+#
+16	site of a ruined temple	بربه	birba	EGYPTIAN ARABIC	16	b i r b a	1 7 5 1 7	AXMBZ	PIRPA	2	2.P.C 2.I.V 2.R.c 2.P.C 2.A.V	2.0 1.5 1.1 1.75 0.8	0	132
+#
+10	small basket	بقوطى	bagūti	EGYPTIAN ARABIC	10	b a g ū t i	1 7 1 7 1 7	AXBYBZ	PAKYTI	2	2.P.C 2.A.V 2.K.C 2.Y.V 2.T.C 2.I.V	2.0 1.5 1.75 1.3 1.75 0.8	0	134
+119	small basket	ⲡⲕⲟⲧ	pkot	COPTIC	10	p k o t	1 1 7 1	ACYN	PKUT	1	1.P.C 1.K.C 1.U.V 1.T.c	2.0 1.5 1.3 0.8	0	133
+#
+68	small fish	رمروم	ramrūm	EGYPTIAN ARABIC	68	r a m r ū m	5 7 4 5 7 4	AXBCYN	RAMRYM	2	2.R.C 2.A.V 2.M.C 2.R.C 2.Y.V 2.M.c	2.0 1.5 1.75 1.5 1.3 0.8	0	135
+#
+88	small window	شوشه	shūsha	EGYPTIAN ARABIC	88	s h ū s h a	3 3 7 3 3 7	ACYMBZ	SHYSHA	2	2.S.C 2.H.C 2.Y.V 2.S.c 2.H.C 2.A.V	2.0 1.5 1.3 1.1 1.75 0.8	0	136
+#
+159	soil, earth	ⲕⲁϩ	kah	COPTIC	50	k a h	1 7 3	AXN	KAH	1	1.K.C 1.A.V 1.H.c	2.0 1.5 0.8	0	137
+#
+146	some(thing)	ϩⲟⲓⲛⲉ	hoine	COPTIC	37	h oi n e	3 7 4 7	AXBZ	HUNE	1	1.H.C 1.U.V 1.N.C 1.E.V	2.0 1.5 1.75 0.8	0	138
+#
+56	southerly	مريسى	marīsī	EGYPTIAN ARABIC	56	m a r ī s ī	4 7 5 7 3 7	AXBYBZ	MARISI	2	2.M.C 2.A.V 2.R.C 2.I.V 2.S.C 2.I.V	2.0 1.5 1.75 1.3 1.75 0.8	0	139
+#
+165	southern country	ⲙⲁⲣⲏⲥ	marēs	COPTIC	56	m a r ē s	4 7 5 7 3	AXBYN	MARES	1	1.M.C 1.A.V 1.R.C 1.E.V 1.S.c	2.0 1.5 1.75 1.3 0.8	0	140
+#
+210	spade or pick	ⲧⲱⲣⲓ	tōri	COPTIC	101	t ō r i	1 7 5 7	AXBZ	TURI	1	1.T.C 1.U.V 1.R.C 1.I.V	2.0 1.5 1.75 0.8	0	141
+#
+71	special bread made of fine flour	سميط	samīt	EGYPTIAN ARABIC	71	s a m ī t	3 7 4 7 1	AXBYN	SAMIT	2	2.S.C 2.A.V 2.M.C 2.I.V 2.T.c	2.0 1.5 1.75 1.3 0.8	0	142
+#
+141	spider's web	ϩⲁⲗⲟⲩⲥ	halous	COPTIC	32	h a l ou s	3 7 5 7 3	AXBYN	HALUS	1	1.H.C 1.A.V 1.L.C 1.U.V 1.S.c	2.0 1.5 1.75 1.3 0.8	0	143
+#
+175	stinking of disease	ⲛⲟⲟϣⲉ	nooshe	COPTIC	66	n oo s h e	4 7 3 3 7	AXMBZ	NUSHE	1	1.N.C 1.U.V 1.S.c 1.H.C 1.E.V	2.0 1.5 1.1 1.75 0.8	0	144
+#
+86	store house for grains	شونه	shūna	EGYPTIAN ARABIC	86	s h ū n a	3 3 7 4 7	ACYBZ	SHYNA	2	2.S.C 2.H.C 2.Y.V 2.N.C 2.A.V	2.0 1.5 1.3 1.75 0.8	0	145
+195	store house for grains	ⲱⲉⲩⲛⲉ	sheune	COPTIC	86	s h eu n e	3 3 7 4 7	ACYBZ	SHENE	1	1.S.C 1.H.C 1.E.V 1.N.C 1.E.V	2.0 1.5 1.3 1.75 0.8	0	145
+#
+188	strike, thresh	ⲟⲩⲟϣⲟⲩⲉϣ	ouoshouesh	COPTIC	79	ouo s h oue s h	7 3 3 7 3 3	XMBYLN	USHUSH	1	1.U.V 1.S.c 1.H.C 1.U.V 1.S.c 1.H.c	1.5 1.1 1.75 1.3 1.1 0.8	0	146
+#
+172	strong sun	ⲛⲁⲕⲣⲏ	nakrē	COPTIC	63	n a k r ē	4 7 1 5 7	AXBCZ	NAKRE	1	1.N.C 1.A.V 1.K.C 1.R.C 1.E.V	2.0 1.5 1.75 1.5 0.8	0	147
+#
+183	the change of the sun	ϣⲃⲣⲏ	shbre	COPTIC	74	s h b r e	3 3 1 5 7	AMBCZ	SHPRE	1	1.S.C 1.H.c 1.P.C 1.R.C 1.E.V	2.0 1.1 1.75 1.5 0.8	0	148
+#
+48	the corn cob after it is beaten to gather the kernels	كلوح	kalūh	EGYPTIAN ARABIC	48	k a l ū h	1 7 5 7 3	AXBYN	KALYH	2	2.K.C 2.A.V 2.L.C 2.Y.V 2.H.c	2.0 1.5 1.75 1.3 0.8	0	149
+#
+203	the crocodile	ⲧⲉⲙⲥⲁϩ	temsah	COPTIC	94	t e m s a h	1 7 4 3 7 3	AXMBYN	TEMSAH	1	1.T.C 1.E.V 1.M.c 1.S.C 1.A.V 1.H.c	2.0 1.5 1.1 1.75 1.3 0.8	0	150
+#
+124	the demon	ⲡⲓϧ	bih	COPTIC	15	b i h	1 7 3	AXN	PIH	1	1.P.C 1.I.V 1.H.c	2.0 1.5 0.8	0	151
+#
+77	the fennel plant	شمر	shamar	EGYPTIAN ARABIC	77	s h a m a r	3 3 7 4 7 5	ACYBYN	SHAMAR	2	2.S.C 2.H.C 2.A.V 2.M.C 2.A.V 2.R.c	2.0 1.5 1.3 1.75 1.3 0.8	0	152
+#
+118	the frog	ⲡⲉⲕⲣⲟⲩⲣ	pekrour	COPTIC	9	p e k r ou r	1 7 1 5 7 5	AXBCYN	PEKRUR	1	1.P.C 1.E.V 1.K.C 1.R.C 1.U.V 1.R.c	2.0 1.5 1.75 1.5 1.3 0.8	0	153
+#
+121	the heron	ⲡⲉⲗϭⲱⲃ	pelsHōm	COPTIC	12	p e l s H ō m	1 7 5 3 0 7 4	AXLMBYN	PELS0UM	1	1.P.C 1.E.V 1.L.c 1.S.c 1.0.C 1.U.V 1.M.c	2.0 1.5 1.1 1.1 1.75 1.3 0.8	0	154
+#
+145	the ibis bird	ϩⲓⲃⲱⲓ	hibōi	COPTIC	36	h i b ō i	3 7 1 7 7	AXBYZ	HIPUI	1	1.H.C 1.I.V 1.P.C 1.U.V 1.I.V	2.0 1.5 1.75 1.3 0.8	0	155
+#
+140	the one who talks	ϩⲁϫⲟⲟⲥ	hadoos	COPTIC	31	h a d oo s	3 7 1 7 3	AXBYN	HATUS	1	1.H.C 1.A.V 1.T.C 1.U.V 1.S.c	2.0 1.5 1.75 1.3 0.8	0	156
+#
+7	the portion of the field left for cultivating clover or beans	باق	bāg	EGYPTIAN ARABIC	7	b ā g	1 7 1	AXN	PAK	2	2.P.C 2.A.V 2.K.c	2.0 1.5 0.8	0	157
+#
+73	the second round of the Egyptian peasants' ball game	سنو	sennō	EGYPTIAN ARABIC	73	s e nn ō	3 7 4 7	AXBZ	SENU	2	2.S.C 2.E.V 2.N.C 2.U.V	2.0 1.5 1.75 0.8	0	158
+#
+125	the temple	ⲡⲣ︦ⲡⲉ	prpe	COPTIC	16	p r p e	1 5 1 7	AXBZ	PRPE	1	1.P.C 1.R.V 1.P.C 1.E.V	2.0 1.5 1.75 0.8	0	159
+#
+123	the thing which is red	ⲡⲉⲧ-ⲫⲣⲉϣⲣⲱϣ	pet-phreshrōsh	COPTIC	14	p e t p h r e s h r ō s h	1 7 1 1 3 5 7 3 3 5 7 3 3	AXMBCCYMBCYLN	PETPHRESHRUSH	1	1.P.C 1.E.V 1.T.c 1.P.C 1.H.C 1.R.C 1.E.V 1.S.c 1.H.C 1.R.C 1.U.V 1.S.c 1.H.c	2.0 1.5 1.1 1.75 1.5 1.5 1.3 1.1 1.75 1.5 1.3 1.1 0.8	0	160
+#
+61	the winter crop of maize	نبارى	nabāri	EGYPTIAN ARABIC	61	n a b ā r i	4 7 1 7 5 7	AXBYBZ	NAPARI	2	2.N.C 2.A.V 2.P.C 2.A.V 2.R.C 2.I.V	2.0 1.5 1.75 1.3 1.75 0.8	0	161
+#
+168	there	ⲙⲛⲏ	mnē	COPTIC	59	m n ē	4 4 7	ACZ	MNE	1	1.M.C 1.N.C 1.E.V	2.0 1.5 0.8	0	162
+#
+134	thigh, hip	ⲃⲓⲗⲧⲓ	bilti	COPTIC	25	b i l t i	1 7 5 1 7	AXMBZ	PILTI	1	1.P.C 1.I.V 1.L.c 1.T.C 1.I.V	2.0 1.5 1.1 1.75 0.8	0	163
+#
+59	thither	مناو	mnāw	EGYPTIAN ARABIC	59	m n ā w	4 4 7 6	ACYN	MNAW	2	2.M.C 2.N.C 2.A.V 2.W.c	2.0 1.5 1.3 0.8	0	164
+#
+23	time of inundation	دميره	damīra	EGYPTIAN ARABIC	23	d a m ī r a	1 7 4 7 5 7	AXBYBZ	TAMIRA	2	2.T.C 2.A.V 2.M.C 2.I.V 2.R.C 2.A.V	2.0 1.5 1.75 1.3 1.75 0.8	0	165
+#
+6	title for Coptic priests	أنبا	anba	EGYPTIAN ARABIC	6	a n b a	7 4 1 7	XMBZ	ANPA	2	2.A.V 2.N.c 2.P.C 2.A.V	1.5 1.1 1.75 0.8	0	167
+115	title for Coptic priests	ⲁⲃⲃⲁ	abba	COPTIC	6	a bb a	7 1 7	XBZ	APA	1	1.A.V 1.P.C 1.A.V	1.5 1.75 0.8	0	166
+#
+144	to abuse or insult	ϩⲟⲟⲩϣ	hooush	COPTIC	35	h oou s h	3 7 3 3	AXLN	HUSH	1	1.H.C 1.U.V 1.S.c 1.H.c	2.0 1.5 1.1 0.8	0	168
+#
+156	to be bent	ⲕⲱⲗⲇ	kōld	COPTIC	47	k ō l d	1 7 5 1	AXLN	KULT	1	1.K.C 1.U.V 1.L.c 1.T.c	2.0 1.5 1.1 0.8	0	169
+#
+52	to be persistent	لج	lajj	EGYPTIAN ARABIC	52	l a jj	5 7 6	AXN	LAJ	2	2.L.C 2.A.V 2.J.c	2.0 1.5 0.8	0	170
+#
+93	to become drunk	تخ	takhkh	EGYPTIAN ARABIC	93	t a k h k h	1 7 1 3 1 3	AXBYBC	TAKHKH	2	2.T.C 2.A.V 2.K.C 2.H.V 2.K.C 2.H.C	2.0 1.5 1.75 1.3 1.75 1.5	0	171
+#
+11	to bluff	بلهم	balham	EGYPTIAN ARABIC	11	b a l h a m	1 7 5 3 7 4	AXMBYN	PALHAM	2	2.P.C 2.A.V 2.L.c 2.H.C 2.A.V 2.M.c	2.0 1.5 1.1 1.75 1.3 0.8	0	172
+#
+35	to bluff, mostly by talking roughly	هوش	hawwash	EGYPTIAN ARABIC	35	h a ww a s h	3 7 6 7 3 3	AXBYLN	HAWASH	2	2.H.C 2.A.V 2.W.C 2.A.V 2.S.c 2.H.c	2.0 1.5 1.75 1.3 1.1 0.8	0	173
+#
+126	to cook beans	ⲡⲉⲥⲁⲣⲱ	pesarō	COPTIC	17	p e s a r ō	1 7 3 7 5 7	AXBYBZ	PESARU	1	1.P.C 1.E.V 1.S.C 1.A.V 1.R.C 1.U.V	2.0 1.5 1.75 1.3 1.75 0.8	0	174
+#
+104	to cry with pain, to bark	وحوح	wahwah	EGYPTIAN ARABIC	104	w a h w a h	6 7 3 6 7 3	AXBCYN	WAHWAH	2	2.W.C 2.A.V 2.H.C 2.W.C 2.A.V 2.H.c	2.0 1.5 1.75 1.5 1.3 0.8	0	175
+#
+135	to fall, rush down	ϥⲟⲣϥⲉⲣ	forfer	COPTIC	26	f o r f e r	3 7 5 3 7 5	AXMBYN	BURBER	1	1.B.C 1.U.V 1.R.c 1.B.C 1.E.V 1.R.c	2.0 1.5 1.1 1.75 1.3 0.8	0	176
+#
+26	to flap the wings, especially when the bird is falling down	فرفر	farfar	EGYPTIAN ARABIC	26	f a r f a r	3 7 5 3 7 5	AXMBYN	BARBAR	2	2.B.C 2.A.V 2.R.c 2.B.C 2.A.V 2.R.c	2.0 1.5 1.1 1.75 1.3 0.8	0	177
+#
+136	to flee	ⲡⲱⲧ	pōt	COPTIC	27	p ō t	1 7 1	AXN	PUT	1	1.P.C 1.U.V 1.T.c	2.0 1.5 0.8	0	178
+#
+150	to give	ϯ	ti	COPTIC	41	t i	1 7	AX	TI	1	1.T.C 1.I.V	2.0 1.5	0	179
+#
+208	to invite	ⲧⲱϩⲉⲙ	tōhem	COPTIC	99	t ō h e m	1 7 3 7 4	AXBYN	TUHEM	1	1.T.C 1.U.V 1.H.C 1.E.V 1.M.c	2.0 1.5 1.75 1.3 0.8	0	180
+#
+27	to jump or run	فط	fatt	EGYPTIAN ARABIC	27	f a tt	3 7 1	AXN	BAT	2	2.B.C 2.A.V 2.T.c	2.0 1.5 0.8	0	181
+#
+47	to limp	كلج	kalaj	EGYPTIAN ARABIC	47	k a l a j	1 7 5 7 6	AXBYN	KALAJ	2	2.K.C 2.A.V 2.L.C 2.A.V 2.J.c	2.0 1.5 1.75 1.3 0.8	0	182
+#
+199	to plough or ploughing	ⲥⲕⲁⲓ	ckai	COPTIC	90	c k ai	1 1 7	ACZ	CKA	1	1.C.C 1.K.C 1.A.V	2.0 1.5 0.8	0	183
+#
+78	to rise	شاشا	shāshā	EGYPTIAN ARABIC	78	s h ā s h ā	3 3 7 3 3 7	ACYMBZ	SHASHA	2	2.S.C 2.H.C 2.A.V 2.S.c 2.H.C 2.A.V	2.0 1.5 1.3 1.1 1.75 0.8	0	184
+187	to rise	ϣⲁ	sha	COPTIC	78	s h a	3 3 7	ACZ	SHA	1	1.S.C 1.H.C 1.A.V	2.0 1.5 0.8	0	184
+#
+33	to sit	همس	hammas	EGYPTIAN ARABIC	33	h a mm a s	3 7 4 7 3	AXBYN	HAMAS	2	2.H.C 2.A.V 2.M.C 2.A.V 2.S.c	2.0 1.5 1.75 1.3 0.8	0	185
+#
+142	to sit, dwell, remain	ϩⲙⲟⲟⲥ	hmoos	COPTIC	33	h m oo s	3 4 7 3	ACXN	HMUS	1	1.H.C 1.M.C 1.U.V 1.S.c	2.0 1.5 1.5 0.8	0	186
+#
+92	to spit	تف	taff	EGYPTIAN ARABIC	92	t a ff	1 7 3	AXN	TAB	2	2.T.C 2.A.V 2.B.c	2.0 1.5 0.8	0	188
+201	to spit	ⲧⲁϥ	taf	COPTIC	92	t a f	1 7 3	AXN	TAB	1	1.T.C 1.A.V 1.B.c	2.0 1.5 0.8	0	187
+#
+130	to spread or something which is spread	ⲡⲱⲣϣ	pōrsh	COPTIC	21	p ō r s h	1 7 5 3 3	AXLLN	PURSH	1	1.P.C 1.U.V 1.R.c 1.S.c 1.H.c	2.0 1.5 1.1 1.1 0.8	0	189
+#
+157	to strike	ⲕⲱⲗϩ	kōlh	COPTIC	48	k ō l h	1 7 5 3	AXLN	KULH	1	1.K.C 1.U.V 1.L.c 1.H.c	2.0 1.5 1.1 0.8	0	190
+#
+137	to wipe	ϥⲱⲧⲉ	fōte	COPTIC	28	f ō t e	3 7 1 7	AXBZ	BUTE	1	1.B.C 1.U.V 1.T.C 1.E.V	2.0 1.5 1.75 0.8	0	191
+#
+28	towel	فوطه	fūta	EGYPTIAN ARABIC	28	f ū t a	3 7 1 7	AXBZ	BYTA	2	2.B.C 2.Y.V 2.T.C 2.A.V	2.0 1.5 1.75 0.8	0	193
+181	towel	ⲥⲁⲁⲥⲉ	saase	COPTIC	72	s aa s e	3 7 3 7	AXBZ	SASE	1	1.S.C 1.A.V 1.S.C 1.E.V	2.0 1.5 1.75 0.8	0	192
+#
+89	tuft of hair, crest	شوشه	shūsha	EGYPTIAN ARABIC	89	s h ū s h a	3 3 7 3 3 7	ACYMBZ	SHYSHA	2	2.S.C 2.H.C 2.Y.V 2.S.c 2.H.C 2.A.V	2.0 1.5 1.3 1.1 1.75 0.8	1	194
+#
+182	two	ⲥⲛⲁⲩ	snau	COPTIC	73	s n au	3 4 7	ACX	SNA	1	1.S.C 1.N.C 1.A.V	2.0 1.5 1.5	0	195
+#
+57	water to drink	مبو	mbū	EGYPTIAN ARABIC	57	m b ū	4 1 7	ACZ	MPY	2	2.M.C 2.P.C 2.Y.V	2.0 1.5 0.8	0	197
+166	water to drink	ⲡⲙⲟⲟⲩ	mbū	COPTIC	57	m b ū	4 1 7	ACZ	MPY	1	1.M.C 1.P.C 1.Y.V	2.0 1.5 0.8	0	196
+#
+207	wind of the east	ⲧⲟⲩⲉⲓⲉⲃⲧ	toueiebt	COPTIC	98	t oueie b t	1 7 1 1	AXLN	TUPT	1	1.T.C 1.U.V 1.P.c 1.T.c	2.0 1.5 1.1 0.8	0	198
+#
+197	window	ϣⲟⲩϣⲧ	shousht	COPTIC	88	s h ou s h t	3 3 7 3 3 1	ACYLLN	SHUSHT	1	1.S.C 1.H.C 1.U.V 1.S.c 1.H.c 1.T.c	2.0 1.5 1.3 1.1 1.1 0.8	0	199
+#
+80	wonder	شبار	shbar	EGYPTIAN ARABIC	80	s h b a r	3 3 1 7 5	AMBYN	SHPAR	2	2.S.C 2.H.c 2.P.C 2.A.V 2.R.c	2.0 1.1 1.75 1.3 0.8	0	200
+189	wonder	ϣⲡⲉⲣⲉ	shpere	COPTIC	80	s h p e r e	3 3 1 7 5 7	AMBYBZ	SHPERE	1	1.S.C 1.H.c 1.P.C 1.E.V 1.R.C 1.E.V	2.0 1.1 1.75 1.3 1.75 0.8	0	200
+#
+105	wood saw	وارشور	wãrshūr	EGYPTIAN ARABIC	105	w ã r s h ū r	6 7 5 3 3 7 5	AXLMBYN	WARSHYR	2	2.W.C 2.A.V 2.R.c 2.S.c 2.H.C 2.Y.V 2.R.c	2.0 1.5 1.1 1.1 1.75 1.3 0.8	0	201
+#
+110	yea	ⲁϩⲁ	aha	COPTIC	1	a h a	7 3 7	XBZ	AHA	1	1.A.V 1.H.C 1.A.V	1.5 1.75 0.8	0	202
+#
+1	yes	آ	ā	EGYPTIAN ARABIC	1	ā	7	X	A	2	2.A.V	1.5	0	203
+#
+62	yoke	ناف	nāf	EGYPTIAN ARABIC	62	n ā f	4 7 3	AXN	NAB	2	2.N.C 2.A.V 2.B.c	2.0 1.5 0.8	0	205
+171	yoke	ⲛⲁϩⲃ	nahb	COPTIC	62	n a h b	4 7 3 1	AXLN	NAHP	1	1.N.C 1.A.V 1.H.c 1.P.c	2.0 1.5 1.1 0.8	0	204
+#
+216	young or fresh	ⲃⲣⲣⲉ	brre	COPTIC	107	b rr e	1 5 7	ACX	PRE	1	1.P.C 1.R.C 1.E.V	2.0 1.5 1.5	0	206
+# Created using the LexStat class of LingPy-2.6.13
+# Parameters: 2:1_1.00_1000_0.70_global-2-0.50:local-1-0.50_0.30__T_shuffle_False:upgma:-2_0.7_0.00_-5.00
+# Cluster: lexstat_upgma_0.50
