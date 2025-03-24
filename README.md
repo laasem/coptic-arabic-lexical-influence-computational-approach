@@ -1,6 +1,6 @@
-# Coptic Lexical Influence on Egyptian Arabic: A Computational Approach
+# Coptic Lexical Influence on Egyptian Arabic: A Computational Exploration
 
-A computational approach to the [1964 paper "Coptic Lexical Influence on Egyptian Arabic" by Wilson B. Bishai](https://www.jstor.org/stable/543178).
+A computational exploration of the [1964 paper "Coptic Lexical Influence on Egyptian Arabic" by Wilson B. Bishai](https://www.jstor.org/stable/543178) using the [LingPy Python package](https://lingpy.org/index.html).
 
 ## Dependencies
 python3 needs to be installed on the environment you will run the script in (local, cloud, etc.) via command `python3`.
